@@ -244,6 +244,7 @@ App|Description
 [hello_pwm](pwm/hello_pwm) | Minimal example of driving PWM output on GPIOs.
 [led_fade](pwm/led_fade) | Fade an LED between low and high brightness. An interrupt handler updates the PWM slice's output level each time the counter wraps.
 [measure_duty_cycle](pwm/measure_duty_cycle) | Drives a PWM output at a range of duty cycles, and uses another PWM slice in input mode to measure the duty cycle.
+[tone_generation](pwm/tone_generation) | Play a christmas melody by generating tones with a buzzer modifying PWM frecuency with a 50% duty cycle.
 
 ### Reset
 
