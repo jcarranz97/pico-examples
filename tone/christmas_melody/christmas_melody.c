@@ -7,18 +7,24 @@
 #include "pico/stdlib.h"
 #include "pico/tone.h"
 
-/**  Example code to generate tones with Buzzer using PWM with pico-sdk.
+/**  Example code to generate tones with Buzzer using pico-sdk.
  *
- *   Every sound humans encounter consists of one or more frequencies, and the
- *   way the ear interprets those sounds  is called pitch.
+ *   The melody is the Christmas song "Noche de Paz" (Silent Night).
  *
- *   In order to produce a variety of pitches, a digital signal needs to convey
- *   the frequency of sound it is trying to reproduce. The simplest approach is
- *   to generate a 50% duty cycle pulse stream and set the frequency to the
- *   desired pitch.
- *
- *   References: 
- *       - https://www.hackster.io/106958/pwm-sound-synthesis-9596f0#overview
+ *   .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
+ *   .                                                     .
+ *   .        *        Song: Noche de Paz (Silent Night)   .
+ *   .       /.\       Instrument: Buzzer                  .
+ *   .      /..'\      Interpreter: Raspberry Pi Pico      .
+ *   .      /'.'\                                 _        .
+ *   .     /.''.'\                              _[ ]_      .
+ *   .     /.'.'.\         Merry Christmas!      (")       .
+ *   .    /'.''.'.\          Feliz Navidad!  `__( : )--'   .
+ *   .    ^^^[_]^^^                            (  :  )     .
+ *   .                                       ""`-...-'""   .  
+ *   .                                                     .
+ *   .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
+ *       
  */
 #define BUZZER_PIN 3
 
@@ -44,21 +50,6 @@ int main() {
     // Configure tone generation on BUZZER_PIN
     tone_init(BUZZER_PIN);
     while (1) {
-        /**
-         *  .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
-         *  .                                                     .
-         *  .        *        Song: Noche de Paz (Silent Night)   .
-         *  .       /.\       Instrument: Buzzer                  .
-         *  .      /..'\      Interpreter: Raspberry Pi Pico      .
-         *  .      /'.'\                                 _        .
-         *  .     /.''.'\                              _[ ]_      .
-         *  .     /.'.'.\         Merry Christmas!      (")       .
-         *  .    /'.''.'.\          Feliz Navidad!  `__( : )--'   .
-         *  .    ^^^[_]^^^                            (  :  )     .
-         *  .                                       ""`-...-'""   .  
-         *  .                                                     .
-         *  .:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.
-         */
         // 1
         tone(BUZZER_PIN, NOTE_G4, 1.5f);
         tone(BUZZER_PIN, NOTE_A4, .5f);
