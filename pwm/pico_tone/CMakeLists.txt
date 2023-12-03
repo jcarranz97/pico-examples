@@ -9,4 +9,4 @@ target_link_libraries(pico_tone pico_stdlib hardware_pwm)
 pico_add_extra_outputs(pico_tone)
 
 # add url via pico_set_program_url
-example_auto_set_url(pico_tone
+example_auto_set_url(pico_tone)
