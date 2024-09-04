@@ -85,14 +85,12 @@ typedef struct {
 
 If a key is pressed, the output will be:
 
-[NOTE]
 ===
 Key 'A' pressed
 ===
 
 If no key is pressed, the output will be:
 
-[NOTE]
 ===
 No key pressed
 ===
@@ -101,14 +99,12 @@ No key pressed
 
 If multiple keys are pressed, the output will be:
 
-[NOTE]
 ===
 Bang!!! '2' key(s) are pressed. Keys: A, B
 ===
 
 If no keys are pressed, the output will be:
 
-[NOTE]
 ===
 No key pressed
 ===
