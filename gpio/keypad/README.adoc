@@ -85,29 +85,33 @@ typedef struct {
 
 If a key is pressed, the output will be:
 
-[quote]
+[NOTE]
+===
 Key 'A' pressed
-[/quote]
+===
 
 If no key is pressed, the output will be:
 
-[quote]
+[NOTE]
+===
 No key pressed
-[/quote]
+===
 
 === Enhanced Mode
 
 If multiple keys are pressed, the output will be:
 
-[quote]
+[NOTE]
+===
 Bang!!! '2' key(s) are pressed. Keys: A, B
-[/quote]
+===
 
 If no keys are pressed, the output will be:
 
-[quote]
+[NOTE]
+===
 No key pressed
-[/quote]
+===
 
 == Additional Information
 
