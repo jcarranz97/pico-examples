@@ -38,18 +38,18 @@ typedef struct {
 
 
 const uint8_t keypad_rows_pins[KEYPAD_NUM_ROWS] = {
-    10,
-    11, 
-    12,
-    13,
+    9,      // GP9
+    8,      // GP8
+    7,      // GP7
+    6,      // GP6
 };
 
 
 const uint8_t keypad_columns_pins[KEYPAD_NUM_COLUMNS] = {
-    18,  // GP18
-    19,  // GP19
-    20,  // GP20
-    21,  // GP21
+    5,      // GP5
+    4,      // GP4
+    3,      // GP2
+    2,      // GP1
 };
 
 
