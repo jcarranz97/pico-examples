@@ -47,22 +47,6 @@ The following table shows the GPIO pins used for the rows and columns of the key
 
 Ensure that the keypad rows and columns are connected to the GPIO pins on the Pico as indicated in the table.
 
-== Installation
-
-To set up and test this example:
-
-. Clone the repository
-   [source,bash]
-   ----
-   git clone https://github.com/yourusername/repo.git
-   ----
-. Navigate to the examples directory
-   [source,bash]
-   ----
-   cd repo/examples/keypad
-   ----
-. Install necessary dependencies (if any)
-
 == Usage
 
 This example can be compiled and run to interact with the keypad. 
