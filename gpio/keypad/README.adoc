@@ -24,7 +24,7 @@ This example shows how to use a 4x4 matrix keypad with the Raspberry Pi Pico. It
 Follow these wiring instructions to connect the 4x4 matrix keypad to the Raspberry Pi Pico:
 
 [image2]
-.![Keypad Connection Diagram](./pico_keypad_connection.png)
+image::pico_keypad_connection.png[Keypad Connection Diagram]
 
 === Wiring Table
 
