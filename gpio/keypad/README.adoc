@@ -30,7 +30,7 @@ image::pico_keypad_connection.png[Keypad Connection Diagram]
 
 The following table shows the GPIO pins used for the rows and columns of the keypad:
 
-[width="50%",cols="1,1,1,1",options="header"]
+[width="50%",cols="1,1,1",options="header"]
 |===
 | Keypad Row/Column | GPIO Pin | Pin Number
 
