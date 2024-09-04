@@ -115,10 +115,6 @@ No key pressed
 
 == Additional Information
 
-For contributing to the repository, refer to the link below:
+For contributing to the repository, refer to the link:../../CONTRIBUTING.md[CONTRIBUTING.md] file.
 
-link:../../CONTRIBUTING.md[CONTRIBUTING.md]
-
-For licensing information, see the link below:
-
-link:../../LICENSE.TXT[LICENSE.TXT]
+For licensing information, see the link:../../LICENSE.TXT[LICENSE.TXT] file.
